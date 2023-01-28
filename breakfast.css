@@ -1,0 +1,38 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 10px 0 8px -8px rgb(21, 20, 20), 
+    -10px 0 8px -8px rgb(21, 20, 20);
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    padding: 0 50px 100px;
+}
+p,li {
+    color: #0a0f69;
+}
+ header  {
+    text-align: center;
+ }
+ .boja  {
+    color: #0af057;
+ }
+ .boja2 {
+    color: #e66e0c;
+ }
+ .boja3 {
+    color: #e373a8;
+ }
+ .hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-bottom: 10px;
+ }
+ li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
