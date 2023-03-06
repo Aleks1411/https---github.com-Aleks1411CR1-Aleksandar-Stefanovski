@@ -13,7 +13,7 @@ body {
     padding: 0 50px 100px;
 }
 p,li {
-    color: #0a0f69;
+    color: #0ae84d;
 }
  header  {
     text-align: center;
@@ -36,3 +36,17 @@ p,li {
     padding-top: 5px;
     padding-bottom: 5px;
  }
+
+ /* .container1{
+   width: 100vw;
+   height: 100vh;
+   background: gray;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ svg{
+   fill: #fff;
+   width: 70%;
+ } */

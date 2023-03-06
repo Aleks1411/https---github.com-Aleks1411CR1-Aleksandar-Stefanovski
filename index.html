@@ -8,14 +8,24 @@
     <link rel="stylesheet" href="/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d49dc53bf9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <section src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></section>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
     <title>Food blog</title>
+
 </head>
 
 <body>
-    <div id="k1">
+    <div id="k1" class="animate__animated animate__fadeInTopLeft">
         <h1 id="H1">Food blog</h1>
+        <h1>Welcome</h1>
         <h2 id="H2">Recipes <i class="fa-sharp fa-solid fa-magnifying-glass"></i></h2>
     </div>
+
     <nav class="navbar">
         <div class="food">
             <hr>
@@ -46,49 +56,59 @@
         <hr>
         </div>
     </nav>
+
+    <!-- particles.js container -->
+    <div id="particles-js" style="z-index: -1;"></div> <!-- stats - count particles -->
+    <!-- <div class="count-particles"> <span class="js-count-particles">--</span> particles </div> -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+
+
     <div class="container">
 
-        <div class="banner">
-            <img class="img1" src="/images/avocado.png" alt="">
+        <div class="banner  animate__animated animate__fadeInDown animate__delay-1s">
+            <img class="img1" src="images/avocado.png" alt="">
             <p class="p1">Avocado Pasta <br><br> Avocado</p>
         </div>
-        <div class="banner">
-            <img class="img1" src="/images/bolognese.png" alt="">
+        <div class="banner animate__animated animate__fadeInDown animate__delay-1s">
+            <img class="img1" src="images/bolognese.png" alt="">
             <p class="p1">Bolognese Pasta <br><br>Bolognese</p>
         </div>
-        <div class="banner">
-            <img class="img1" src="/images/tacos.png" alt="">
+        <div class="banner animate__animated animate__fadeInDown animate__delay-1s">
+            <img class="img1" src="images/tacos.png" alt="">
             <p class="p1">Tacos <br><br> Mexicana</p>
         </div>
-        <div class="banner">
-            <img class="img1" src="/images/pizza1.png" alt="">
+        <div class="banner animate__animated animate__fadeInDown animate__delay-2s">
+            <img class="img1" src="images/pizza1.png" alt="">
             <p class="p1">Pizza Napolitana <br><br>Napolitana</p>
 
         </div>
-        <div class="banner">
-            <img class="img1" src="/images/pizza2.png" alt="">
+        <div class="banner animate__animated animate__fadeInDown animate__delay-2s">
+            <img class="img1" src="images/pizza2.png" alt="">
             <p class="p1">Pizza Italiana <br><br>Italiana</p>
         </div>
-        <div class="banner">
-            <img class="img1" src="/images/souffle.png" alt="">
+        <div class="banner animate__animated animate__fadeInDown animate__delay-2s">
+            <img class="img1" src="images/souffle.png" alt="">
 
             <p class="p1">Souffle <br><br>Dessert</p>
         </div>
-        <div class="banner">
-            <img src="/images/breakfast.png" alt="">
+        <div class="banner animate__animated animate__fadeInDown animate__delay-3s">
+            <img src="images/breakfast.png" alt="">
             <p class="p1">Breakfast <br><br> Ideas</p>
         </div>
-        <div class="banner">
-            <img class="img1" src="/images/lunch.png" alt="">
+        <div class="banner animate__animated animate__fadeInDown animate__delay-3s">
+            <img class="img1" src="images/lunch.png" alt="">
             <p class="p1">Lunch <br><br> Ideas</p>
         </div>
-        <div class="banner">
-            <img class="img1" src="/images/dinner.png" alt="">
+        <div class="banner animate__animated animate__fadeInDown animate__delay-3s">
+            <img class="img1" src="images/dinner.png" alt="">
             <p class="p1">Dinner <br><br>Ideas</p>
-
         </div>
-    </div>
 
+    </div>
+    </div>
+    </head>
 
     <footer>
         <div class="foot">
@@ -111,6 +131,8 @@
             <p>"copyright &copy;2023 Food Blog. designed by <span>Aleksandar Stefanovski</span>"</p>
         </div>
     </footer>
+    <script src="indexjs.js"></script>
+
 </body>
 
 </html>
